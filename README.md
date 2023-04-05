@@ -44,8 +44,8 @@ It shows the distance of a random variable from its mean. It is calcualted as
 
 
 ## Experiment :
-![Input](In1.png)
 
+![Input](IN1.png)
 ## Program :
 
 ```
