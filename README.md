@@ -69,7 +69,7 @@ sum_of_frequency=np.sum(frequency_of_x)
 print(sum_of_frequency)
 prob_of_x=list()
 for i in range(M+1):
-    prob_of_x.append(f[i]/sf) 
+    prob_of_x.append(frequency_of_x[i]/sum_of_frequency) 
 mean=np.inner(x,prob_of_x)
 print(mean)
 EX2=np.inner(np.square(x),prob_of_x)
